@@ -1,0 +1,2 @@
+1) Проходим по ссылке https://coinmarketcap.com/currencies/bnb/historical-data/
+2) Daily интервал. Выбираем 01 may 2022 - 01 may 2024
