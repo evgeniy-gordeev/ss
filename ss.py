@@ -2,8 +2,7 @@ import streamlit as st
 from funcs import *
 
 st.set_page_config(
-     page_title='Crypto portfolio analysis',
-     page_icon = '📈',
+     page_title='Crypto advanced analytics'
 )
 
 import pandas as pd
