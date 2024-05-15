@@ -2,13 +2,13 @@ import streamlit as st
 from funcs import *
 
 st.set_page_config(
-     page_title='Crypto portfolio analysis',
-     page_icon = '📈',
-     menu_items={
-          'Get Help': 'https://github.com/kavehbc/market-forecast',
-          'Report a bug': "https://github.com/kavehbc/market-forecast",
-          'About': "# Cryptocurrency & Stock Market Forecast (Predictive AI)
-          })
+    page_title="Crypto portfolio analysis",
+    page_icon="📈",
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# This is a header. This is an *extremely* cool app!"
+    }
 )
 
 import pandas as pd
