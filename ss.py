@@ -1,6 +1,11 @@
 import streamlit as st
 from funcs import *
 
+st.set_page_config(
+     page_title='Crypto portfolio analysis',
+     layout="wide"
+)
+
 import pandas as pd
 cryptos = [
     'Arbitrum', 'Bitcoin Cash', 'BNB',
