@@ -2,7 +2,13 @@ import streamlit as st
 from funcs import *
 
 st.set_page_config(
-     page_title='Crypto portfolio analysis'
+     page_title='Crypto portfolio analysis',
+     page_icon = '📈',
+     menu_items={
+          'Get Help': 'https://github.com/kavehbc/market-forecast',
+          'Report a bug': "https://github.com/kavehbc/market-forecast",
+          'About': "# Cryptocurrency & Stock Market Forecast (Predictive AI)
+          })
 )
 
 import pandas as pd
