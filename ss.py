@@ -3,7 +3,7 @@ from funcs import *
 
 st.set_page_config(
      page_title='Crypto portfolio analysis',
-     layout="wide"
+     page_icon = '📈',
 )
 
 import pandas as pd
